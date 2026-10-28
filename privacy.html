@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARIZE Privacy Policy</title>
+<style>
+  :root { --bg:#f7f8fc; --ink:#1f2940; --muted:#5d6880; --accent:#515bdb; --card:#ffffff; --line:#e0e5f0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141824; --ink:#eef1fa; --muted:#a9b3c7; --accent:#9b9ef6; --card:#1e2433; --line:#323a4e; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 20px; }
+  h1 { font-size:2rem; margin:0 0 4px; }
+  .muted { color:var(--muted); }
+  h2 { font-size:1.15rem; margin-top:28px; }
+  a { color:var(--accent); }
+  li { margin:4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ARIZE Privacy Policy</h1>
+  <p class="muted">Last updated: October 27, 2026</p>
+
+  <p>ARIZE is a personal macOS study app. This policy explains what data ARIZE uses and how it is handled.</p>
+
+  <h2>Data stored on your Mac</h2>
+  <p>Study sessions, review schedules, practice questions, answers, mistake classifications and notes are stored locally on your Mac. ARIZE does not run its own servers and does not send this data to the developer.</p>
+
+  <h2>Google user data</h2>
+  <ul>
+    <li><strong>What ARIZE accesses:</strong> only if you choose to connect Google Drive, ARIZE requests the <code>https://www.googleapis.com/auth/drive.file</code> permission. This lets ARIZE create and update only the folder and documents that ARIZE itself creates. ARIZE cannot see or read any other file in your Google Drive.</li>
+    <li><strong>How it is used:</strong> ARIZE writes your mistake-review records into four documents (Knowledge Gap, Forgot, Confusion, Misreading) inside the folder “ARIZE — AFK Mistake Recovery”, so you can use them as sources in your own tools.</li>
+    <li><strong>Storage:</strong> the Google sign-in token and app credentials are stored in your Mac's Keychain. The documents are stored in your own Google Drive.</li>
+    <li><strong>Sharing:</strong> ARIZE does not sell, share or transfer Google user data to anyone, does not use it for advertising, and does not use it to train AI models.</li>
+  </ul>
+  <p>ARIZE's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Analytics and tracking</h2>
+  <p>ARIZE contains no analytics, advertising or tracking code.</p>
+
+  <h2>Removing access and data</h2>
+  <ul>
+    <li>Disconnect Google Drive in ARIZE, or remove ARIZE's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Delete the “ARIZE — AFK Mistake Recovery” folder from your Google Drive at any time.</li>
+    <li>Local data is removed by deleting ARIZE's folder in <code>~/Library/Application Support/DailyReviewMac</code>.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue at <a href="https://github.com/behnampic-collab/behnampic-collab.github.io/issues">github.com/behnampic-collab/behnampic-collab.github.io/issues</a>.</p>
+</main>
+</body>
+</html>
